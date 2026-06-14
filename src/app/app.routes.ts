@@ -35,6 +35,13 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'historico',
+    loadComponent: () =>
+      import('./pages/historico/historico.component').then(
+        (m) => m.HistoricoComponent
+      ),
+  },
+  {
     path: '**',
     redirectTo: 'dashboard',
   },

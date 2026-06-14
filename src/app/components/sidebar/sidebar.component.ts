@@ -56,12 +56,16 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           Contas
         </a>
 
-        <div class="nav-section-title" style="margin-top: 1rem;">Em breve</div>
-
-        <a class="sidebar-link" style="opacity: 0.4; cursor: not-allowed;">
+        <a
+          class="sidebar-link"
+          routerLink="/historico"
+          routerLinkActive="active"
+        >
           <i class="bi bi-clock-history"></i>
           Histórico
         </a>
+
+        <div class="nav-section-title" style="margin-top: 1rem;">Em breve</div>
 
         <a class="sidebar-link" style="opacity: 0.4; cursor: not-allowed;">
           <i class="bi bi-bar-chart-line"></i>
