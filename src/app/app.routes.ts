@@ -28,6 +28,13 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'contas',
+    loadComponent: () =>
+      import('./pages/contas/contas.component').then(
+        (m) => m.ContasComponent
+      ),
+  },
+  {
     path: '**',
     redirectTo: 'dashboard',
   },

@@ -47,6 +47,15 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           Canais
         </a>
 
+        <a
+          class="sidebar-link"
+          routerLink="/contas"
+          routerLinkActive="active"
+        >
+          <i class="bi bi-person-badge"></i>
+          Contas
+        </a>
+
         <div class="nav-section-title" style="margin-top: 1rem;">Em breve</div>
 
         <a class="sidebar-link" style="opacity: 0.4; cursor: not-allowed;">
